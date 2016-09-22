@@ -1,5 +1,5 @@
 # GroveMonitor (Monitor Side)
-An IoT application using Raspberry Pis to create a full greenhouse monitoring solution. The system consists of a main RPi which communicates through socketio with the server and the other RPis. The other RPis either gather sensor data or activate relays using a PiFace.<br> The whole system consists of the following RPis:<br><br>
+An IoT application using Raspberry Pis to create a full greenhouse monitoring and controlling solution. The system consists of a main RPi which communicates through socketio with the server and the other RPis. The other RPis either gather sensor data or activate relays using a PiFace.<br> The whole system consists of the following RPis:<br><br>
 <strong>Main Raspberry:</strong><br>
 -Gathers all the data collected from the other RPis and stores it/passes it to the server.<br>
 -Serves a local webserver.<br>
