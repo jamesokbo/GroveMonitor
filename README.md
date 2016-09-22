@@ -4,7 +4,8 @@ An IoT application using Raspberry Pis to create a full greenhouse monitoring so
 -Gathers all the data collected from the other RPis and stores it/passes it to the server.<br>
 -Serves a local webserver.<br>
 -Gathers user defined values from the server (eg. variable thresholds, name, etc.) <br>
--Compares gathered data with the established thresholds and sends commands to activate relays to the respective RPis.<br><br>
+-Compares gathered data with the established thresholds and sends commands to activate relays to the respective RPis.<br>
+-Receives commands from server and passes them to the respective RPi<br><br>
 <strong>Environment Monitor</strong> <br>
 -Has the following sensors: Environment Temperature, Relative Humidity, Luminance, CO2 <br>
 -Takes routine readings and passes them to the Main RPi <br>
